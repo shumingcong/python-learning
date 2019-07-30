@@ -103,6 +103,7 @@
 # time.sleep(5)
 # print("结束时间：%s"% time.ctime())
 
+#0730
 # #格式化输出时间
 # # import time
 # # print (time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
