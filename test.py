@@ -102,3 +102,18 @@
 # print("开始时间：%s"% time.ctime())
 # time.sleep(5)
 # print("结束时间：%s"% time.ctime())
+
+# #格式化输出时间
+# # import time
+# # print (time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+# # time.sleep(20)
+# # print (time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+
+# #兔子总数问题，数列1、1、2、3、5、8、13、21.。。。对数
+# def rabnum(n):
+#     if n==1 or n==2:
+#         return 1
+#     else: return rabnum(n-1)+rabnum(n-2)
+#     print(rabnum(n))
+# for i in range (1,22):
+#   print(rabnum(i))
